@@ -8,6 +8,9 @@
         "dev": "tsc-watch --onSuccess \"node dist/index\""
     },
     "devDependencies": {
+        "@types/node": "^20.11.19",
+        "prisma": "^5.9.1",
+        "ts-node": "^10.9.2",
         "tsc-watch": "^6.0.4",
         "typescript": "^5.3.3"
     },
